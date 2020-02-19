@@ -23,12 +23,14 @@ footer{
 }
 p{
   color: black;
+  text-align: justify;
+  margin: 30px;
 }
 a, li{
   color: black;
 }
 section{
-  background-color: powderblue;
+  background-color: white;
 }
 .headerHeading{
   text-align: left;
@@ -44,18 +46,23 @@ section{
   padding: 10px;
 }
 .songs{
-  background-color: white;
+  background-color: powderblue;
   width: 100%;
   margin: auto;
-  height:0;
+  height:500px;
+}
+.songs1{
+  background-color: powderblue;
+  width: 100%;
+  margin: auto;
+  height:700px;
 }
 .catg{
   display: block;
   float: left;
   width: 30%;
-  margin-bottom: 50px;
-  padding: 5px;
-  background-image: url(back01.ipg);
+  margin: 20px;
+  padding: 10px;
 }
 .footer{
   margin: auto;
@@ -64,6 +71,7 @@ section{
 }
 .imageflower{
   margin: auto;
-  width: 200px;
-  height:200px;
+  width: 250px;
+  height: 175px;
+  border: auto;
 }
